@@ -7,7 +7,7 @@ main:
     # url: /publications/
     url: https://scholar.google.com/citations?user=wSDh5NgAAAAJ&hl=es
 
-  -title: "Portfolio"
+  - title: "Portfolio"
     url: /portfolio/
 
 

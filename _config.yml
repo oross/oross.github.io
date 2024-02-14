@@ -7,16 +7,16 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Daniel Lopez Montiel / daniel-montielpz"
+title                    : "Daniel Montiel's homepage"
 title_separator          : "-"
 name                     : &name "Daniel Alejandro Lopez Montiel"
-description              : &description "Master's degree student in quantum machine learning"
+description              : &description "Quantum Machine Learning"
 url                      : https://montiel23.github.io/daniel-montielpz.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
-words_per_minute         : 110
+words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Daniel Montiel"
-  avatar           : "profile.png"
-  bio              : "Master's student interested in quantum machine learning and medical imaging"
+  avatar           : "daniel-pic.png"
+  bio              : "Quantum Machine Learning"
   location         : "Tijuana, Baja California, México"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=wSDh5NgAAAAJ&hl=es"
-  email            :
+  email            : "lopezdaniel1fmcet58@gmail.com"
   researchgate     :  "https://www.researchgate.net/profile/Daniel-Lopez-214"
   uri              :
   bitbucket        :
@@ -96,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "Montiel23"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :  
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         :  "daniel-alejandro-lopez-montiel"
+  # orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username

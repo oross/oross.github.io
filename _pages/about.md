@@ -8,9 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-<!-- ![Quantum Machine Learning in medical image analysis](/images/qml.png){: .align-right width="300px"} -->
-<!-- <img src="/images/qml.png" alt="Quantum Machine Learning in medical image analysis" align="right" width="300px">  -->
-<img align="right" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mmontielpz" height="30" width="40" />
+<img src="/images/qml.png" alt="Quantum Machine Learning in medical image analysis" align="right" width="50", height="50"> 
+<!-- <img align="right" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mmontielpz" height="30" width="40" /> -->
 📚 In my final semester of Master's at CITEDI - IPN.
 
 💻 My research interests are quantum machine learning and computer vision.

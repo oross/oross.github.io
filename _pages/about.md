@@ -8,7 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-<img src="/images/qml.png" alt="Quantum Machine Learning in medical image analysis" align="right" width="50" height="50"> 
+<!-- <img src="/images/qml.png" alt="Quantum Machine Learning in medical image analysis" align="right" width="50" height="50">  -->
+
+<img align="right" src="/images/qml.png" alt="daniel" height="100" width="100"/>
+
 <!-- <img align="right" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mmontielpz" height="30" width="40" /> -->
 📚 In my final semester of Master's at CITEDI - IPN.
 

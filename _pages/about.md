@@ -10,7 +10,7 @@ redirect_from:
 
 <!-- ![Quantum Machine Learning in medical image analysis](/images/qml.png){: .align-right width="300px"} -->
 <!-- <img src="/images/qml.png" alt="Quantum Machine Learning in medical image analysis" align="right" width="300px">  -->
-<img src="https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fmb9o3wj664661.png" alt="Quantum Machine Learning in medical image analysis" align="right" width="300px"> 
+<a href="https://linkedin.com/in/mmontielpz" target="blank"><img align="right" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mmontielpz" height="30" width="40" /></a>
 📚 In my final semester of Master's at CITEDI - IPN.
 
 💻 My research interests are quantum machine learning and computer vision.

@@ -7,15 +7,15 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Daniel Montiel's homepage"
+title                    : "Oross's homepage"
 title_separator          : "-"
-name                     : &name "Daniel Alejandro Lopez Montiel"
+name                     : &name "Oscar Humberto Montiel Ross"
 description              : &description "Quantum Machine Learning"
 # url                      : https://mmontielpz.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-url                      : https://montiel23.github.io/daniel-montielpz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://oross.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 # repository               : "mmontielpz/mmontielpz.github.io"
-repository               : "montiel23/daniel-montielpz.github.io"
+repository               : "oross/oross.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -82,15 +82,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Daniel Montiel"
-  avatar           : "daniel-pic.png"
-  bio              : "Quantum Machine Learning"
+  name             : "Oscar Montiel"
+  avatar           : "oross-pic.jpg"
+  bio              : "Quantum Computing & Artificial Intelligence"
   location         : "Tijuana, Baja California, México"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=wSDh5NgAAAAJ&hl=es"
-  email            : "lopezdaniel1fmcet58@gmail.com"
-  researchgate     :  "https://www.researchgate.net/profile/Daniel-Lopez-214"
+  googlescholar    : "https://scholar.google.com/citations?user=IWg7VGIAAAAJ&hl=es&authuser=1"
+  email            : "oross@citedi.mx"
+  researchgate     :  "https://www.researchgate.net/profile/Oscar-Montiel-Ross"
   uri              :
   bitbucket        :
   codepen          :
@@ -98,20 +98,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Montiel23"
+  github           : "oross"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :  "daniel-alejandro-lopez-montiel"
+  linkedin         :  "oscar-montiel-ross-22548837"
   # orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "@tenmaDjarin"
+  twitter          : ""
   vine             :
   weibo            :
   xing             :

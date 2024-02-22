@@ -104,14 +104,15 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :  "oscar-montiel-ross-22548837"
-  # orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "oscar-montiel-ross-22548837"
+  orcid            : "https://orcid.org/0000-0002-7060-9204"
+  dblp             : "https://dblp.org/pid/73/5622.html"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : ""
+    # twitter          : ""
   vine             :
   weibo            :
   xing             :

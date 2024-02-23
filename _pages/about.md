@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Prof. Dr. Oscar Humberto Montiel Ross"
+title: "Principal Page of Quantum Machine Learning Lab at CITEDI"
 
 author_profile: true
 redirect_from: 

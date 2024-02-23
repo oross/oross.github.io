@@ -23,8 +23,10 @@ Briefly describe the mission or main research focus of the lab.
     <div class="member__avatar">
         {% if member.avatar contains "://" %}
             <img src="{{ member.avatar }}" alt="{{ member.name }}">
-        {% else %}
+        {% elsif member.avatar %}
             <img src="{{ member.avatar | prepend: '/images/' | prepend: base_path }}" alt="{{ member.name }}">
+        {% else %}
+            <img src="{{ '/images/blank-profile.png' | prepend: base_path }}" alt="Default Avatar">
         {% endif %}
     </div>
     <div class="member__content">
@@ -37,12 +39,6 @@ Briefly describe the mission or main research focus of the lab.
     </div>
 </div>
 {% endfor %}
-
-## Research Areas
-Describe the main research areas of the lab, possibly with sub-sections for each area.
-
-## Publications
-List recent publications with links to them, if available.
 
 ## Join Us
 Information on open positions, how to apply, and what qualities you're looking for in candidates.

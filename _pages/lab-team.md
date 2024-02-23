@@ -28,10 +28,12 @@ Briefly describe the mission or main research focus of the lab.
         {% endif %}
     </div>
     <div class="member__content">
-        <h3 class="member__name">{{ member.name }}</h3>
-        <p class="member__position">{{ member.position }}</p>
-        <p class="member__research_interests">{{ member.research_interests }}</p>
-        <p class="member__contact">{{ member.contact }}</p>
+        <h3 class="member__position">{{ member.position }}</h3>
+        <h2 class="member__name">{{ member.name }}</h2>
+        <p class="member__abstract">{{ member.abstract }}</p>
+        <a href="{{ site.baseurl }}/team/{{ member.username }}" class="profile-link">
+        <i class="fas fa-user-circle"></i> Full Profile
+    </a>
     </div>
 </div>
 {% endfor %}

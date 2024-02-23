@@ -1,33 +1,7 @@
 # main links links
 main:
-  - title: "CV"
-    url: /files/ResumeDaniLopez-1.pdf
+  - title: "Lab"
+    url: /lab/
 
-  - title: "Publications"
-    # url: /publications/
-    url: https://scholar.google.com/citations?user=wSDh5NgAAAAJ&hl=es
-
-  - title: "Portfolio"
-    url: /portfolio/
-
-
-  # - title: "Publications"
-  #   url: /publications/
-
-  # - title: "Talks"
-  #   url: /talks/    
-
-  # - title: "Teaching"
-  #   url: /teaching/    
-    
-  # - title: "Portfolio"
-  #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
-  # - title: "CV"
-  #   url: /cv/
-    
-  # - title: "Guide"
-  #   url: /markdown/
+  - title: "Blog Posts"
+    url: /year-archive/

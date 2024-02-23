@@ -20,6 +20,7 @@ Briefly describe the mission or main research focus of the lab.
 {% include base_path %}
 {% for member in site.data.lab-team %}
 <div class="team-member">
+    <h3 class="member__position">{{ member.position }}</h3>
     <div class="member__avatar">
         {% if member.avatar contains "://" %}
             <img src="{{ member.avatar }}" alt="{{ member.name }}">
@@ -30,7 +31,6 @@ Briefly describe the mission or main research focus of the lab.
         {% endif %}
     </div>
     <div class="member__content">
-        <h3 class="member__position">{{ member.position }}</h3>
         <h2 class="member__name">{{ member.name }}</h2>
         <p class="member__abstract">{{ member.abstract }}</p>
         <a href="{{ site.baseurl }}/team/{{ member.username }}" class="profile-link">

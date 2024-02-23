@@ -10,11 +10,11 @@
   position: "PhD Student"
   research_interests: ""
   contact: ""
-  avatar: ""
+  avatar: "../images/blank-profile.png"
 
 - id: daniel_lopez
   name: "Eng. Daniel Alejandro Lopez Montiel"
   position: "Master's Student"
   research_interests: ""
   contact: "dlopez@citedi.mx"
-  avatar: "../images/daniel-pic.png" # Optional
+  avatar: "../images/daniel-pic.png"

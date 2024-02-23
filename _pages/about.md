@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "🫡 Hi, I'm Daniel!"
+title: "Prof. Dr. Oscar Humberto Montiel Ross"
 
 author_profile: true
 redirect_from: 

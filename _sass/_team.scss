@@ -1,0 +1,44 @@
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2em;
+
+  .member__avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1em;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  .member__content {
+    h3 {
+      margin-bottom: 0.5em;
+      font-size: 1.2em;
+      color: $text-color; // Example variable usage
+    }
+
+    .member__position {
+      font-style: italic;
+      color: $secondary-text-color; // Example variable usage
+      margin-bottom: 0.5em;
+    }
+
+  }
+
+  // Add responsive design adjustments
+  @media (max-width: 768px) {
+    .member__avatar {
+      width: 120px;
+      height: 120px;
+    }
+  }
+}

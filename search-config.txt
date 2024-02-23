@@ -1,0 +1,1 @@
+grep -rnH 'dblp' . | awk -F: '{print "File: " $1 ", Line: " $2}

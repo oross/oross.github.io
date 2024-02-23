@@ -82,6 +82,12 @@
 .ai-dblp-square:before {
   content: "\e819";
 }
+.ai-scopus:before {
+  content: "\e91e";
+}
+.ai-scopus-square:before {
+  content: "\e91f";
+}
 .ai-depsy:before {
   content: "\e820";
 }

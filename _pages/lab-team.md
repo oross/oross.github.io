@@ -5,22 +5,13 @@ permalink: /team/
 ---
 
 # Quantum Machine Learning Lab Team
-## Our Mission
-Briefly describe the mission or main research focus of the lab.
-
-## Principal Investigator
-![PI's Image](./../images/oross-pic.jpg)  
-**Name**: PhD Oscar Humberto Montiel Ross  
-**Position**: Principal Investigator  
-**Research Interests**: Quantum Computing, Artificial Intelligence
-**Contact**: oross@citedi.mx
 
 ## Team Members
 
 {% include base_path %}
 {% for member in site.data.lab-team %}
 <div class="team-member">
-    <h3 class="member__position">{{ member.position }}</h3>
+    <h1 class="member__position">{{ member.position }}</h1>
     <div class="member__avatar">
         {% if member.avatar contains "://" %}
             <img src="{{ member.avatar }}" alt="{{ member.name }}">
@@ -31,10 +22,10 @@ Briefly describe the mission or main research focus of the lab.
         {% endif %}
     </div>
     <div class="member__content">
-        <h2 class="member__name">{{ member.name }}</h2>
+        <h3 class="member__name">{{ member.name }}</h3>
         <p class="member__abstract">{{ member.abstract }}</p>
-        <a href="{{ site.baseurl }}/team/{{ member.username }}" class="profile-link">
-        <i class="fas fa-user-circle"></i> Full Profile
+        <a href="{{ site.baseurl }}/team/{{ member.profile_slug }}" class="profile-icon-link">
+        <i class="fas fa-user-circle fa-3x"></i>
     </a>
     </div>
 </div>

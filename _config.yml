@@ -19,7 +19,7 @@ repository               : "oross/oross.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -98,7 +98,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "oross"
+  github           : "Quantum-Machine-Learning-Lab"
   google_plus      :
   keybase          :
   instagram        :
@@ -107,6 +107,7 @@ author:
   linkedin         : "oscar-montiel-ross-22548837"
   orcid            : "https://orcid.org/0000-0002-7060-9204"
   dblp             : "https://dblp.org/pid/73/5622.html"
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=6603025883"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username

@@ -1,20 +1,33 @@
+- id: oscar_montiel
+  name: "Prof. PhD Oscar Humberto Montiel Ross"
+  position: "Principal Investigator"
+  research_interests: "Quantum Computing, Artificial Intelligence"
+  contact: "oross@citedi.mx"
+  profile_slug:
+  avatar: "oross-pic.jpg"
+  abstract: "Oscar Humberto Montiel Ross (Senior Member, IEEE) received the Bachelor of Science degree in electrical engineering and electronics from the Universidad Autónoma de Baja California (UABC), México, in 1985, the M.Sc. degree in digital systems from the Instituto Politécnico Nacional (IPN), México, in 1999, the M.Sc. degree in computer from the Instituto Tecnológico de Tijuana, México, in 2000, and the D.Sc. degree in computer science from the UABC, in 2006. He is currently a Researcher with the Centro de Investigación y Desarrollo de Tecnología Digital (CITEDI-IPN). He has leading 17 research projects and participated in about 20 others, most of them in the computational intelligence field. He has published articles, books, and book chapters about quantum computing, evolutionary computation, mobile robotics, mediative fuzzy logic, ant colonies, type-2 fuzzy systems, and embedded systems. He has experience editing books and journal’s special issues. He is a member of the International Association of Engineers (IANG) and the Mexican Science Foundation Consejo Nacional de Ciencia y Tecnología (CONACYT). He received the Research Award 2016 from IPN. He is a Co-Founder and an Active Member of the Hispanic American Fuzzy Systems Association (HAFSA) and the Mexican Chapter of the Computational Intelligence Society (IEEE)."
+
 - id: miguel_lopez
   name: "PhD Miguel Angel Lopez Montiel"
   position: "Postdoctoral Researcher"
   research_interests: "Efficient Algorithms, Quantum Computing"
   contact: "milopez@citedi.mx"
-  avatar: "../images/mmontielpz.jpg"
+  avatar: mmontielpz.jpg
+  profile_slug: mmontielpz
+  abstract: "Miguel Lopez is a dedicated Computer Science Researcher with a Doctor of Science from CITEDI-IPN Research Center, their expertise encompasses a broad range of areas within Artificial Intelligence, including Machine Learning, Deep Learning, Embedded Systems, and Computer Vision Applications, with a special focus on real-time processing. With over 5 years of hands-on experience, their research efforts are aimed at developing innovative and efficient architectures for computer vision applications leveraging the latest advancements in deep learning. Their academic contributions are recognized through publications in esteemed International Journals and Conference Proceedings. Proficient in Python, Pytorch, Scikit-Learn, Linux, and other cutting-edge technologies and tools, they are committed to utilizing advanced data engineering, modeling, and workflow management techniques in their research."
 
 - id: sandra_rosales
-  name: "Sandra Rosales"
+  name: "MSc. Sandra Rosales"
   position: "PhD Student"
   research_interests: ""
   contact: ""
-  avatar: "../images/blank-profile.png"
+  avatar: blank-profile.png
+  abstract: ""
 
 - id: daniel_lopez
   name: "Eng. Daniel Alejandro Lopez Montiel"
   position: "Master's Student"
   research_interests: ""
   contact: "dlopez@citedi.mx"
-  avatar: "../images/daniel-pic.png"
+  avatar: daniel-pic.png
+  abstract: ""

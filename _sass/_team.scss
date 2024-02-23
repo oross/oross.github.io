@@ -1,3 +1,38 @@
+// Styles for principal investigator
+.principal-investigator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2em;
+
+  .investigator__image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 1em;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  .investigator__details {
+    max-width: calc(100% - 160px); // Adjust based on the actual width of the image and margin
+
+    h2 {
+      margin-bottom: 0.5em;
+      font-size: 1.5em;
+    }
+
+    p {
+      margin-bottom: 0.5em;
+    }
+  }
+}
+
 .team-member {
   display: flex;
   flex-direction: column;
@@ -20,6 +55,10 @@
   }
 
   .member__content {
+    // Set a max-width to align the content with the name of the position
+    // Adjust this value as needed to fit your design
+    max-width: 80%;
+    
     h3 {
       margin-bottom: 0.5em;
       font-size: 1.2em;
@@ -32,6 +71,12 @@
       margin-bottom: 0.5em;
     }
 
+    .member__abstract {
+      text-align: justify;
+      margin-top: 0;
+      // Remove padding-top if you want the text to align at the top
+      padding: 0 1em; // Add horizontal padding if needed
+    }
   }
 
   // Add responsive design adjustments
@@ -39,6 +84,11 @@
     .member__avatar {
       width: 120px;
       height: 120px;
+    }
+
+    .member__content {
+      // Adjust the max-width for responsive design
+      max-width: 90%;
     }
   }
 }

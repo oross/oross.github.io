@@ -21,7 +21,11 @@ Briefly describe the mission or main research focus of the lab.
 {% for member in site.data.lab-team %}
 <div class="team-member">
     <div class="member__avatar">
-        <img src="{{ member.avatar | prepend: '/images/' | prepend: base_path }}" alt="{{ member.name }}">
+        {% if member.avatar contains "://" %}
+            <img src="{{ member.avatar }}" alt="{{ member.name }}">
+        {% else %}
+            <img src="{{ member.avatar | prepend: '/images/' | prepend: base_path }}" alt="{{ member.name }}">
+        {% endif %}
     </div>
     <div class="member__content">
         <h3 class="member__name">{{ member.name }}</h3>

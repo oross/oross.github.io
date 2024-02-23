@@ -1,0 +1,20 @@
+- id: miguel_lopez
+  name: "PhD Miguel Angel Lopez Montiel"
+  position: "Postdoctoral Researcher"
+  research_interests: "Efficient Algorithms, Quantum Computing"
+  contact: "milopez@citedi.mx"
+  avatar: "../images/mmontielpz.jpg"
+
+- id: sandra_rosales
+  name: "Sandra Rosales"
+  position: "PhD Student"
+  research_interests: ""
+  contact: ""
+  avatar: ""
+
+- id: daniel_lopez
+  name: "Student 2"
+  position: "Master's Student"
+  research_interests: "Cryptography, Network Security"
+  contact: "email@example.com"
+  avatar: "../images/team/student2.jpg" # Optional

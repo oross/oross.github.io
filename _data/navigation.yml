@@ -1,7 +1,10 @@
 # main links links
 main:
   - title: "Lab"
-    url: /lab/
+    url: /team/
+
+  - title: "Projects"
+    url: /projects/
 
   - title: "Blog Posts"
     url: /year-archive/

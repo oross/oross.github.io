@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Principal Page of Quantum Machine Learning Lab at CITEDI"
+title: "Homepage of QML Lab at CITEDI-IPN"
 
 author_profile: true
 redirect_from: 

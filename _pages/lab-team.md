@@ -18,7 +18,7 @@ Briefly describe the mission or main research focus of the lab.
 ## Team Members
 
 {% include base_path %}
-{% for member in site.data.lab_team %}
+{% for member in site.data.lab-team %}
 <div class="team-member">
     <div class="member__avatar">
         {% if member.avatar contains "://" %}

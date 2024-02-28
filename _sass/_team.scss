@@ -1,94 +1,132 @@
-// Styles for principal investigator
-.principal-investigator {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 250px;
   margin-bottom: 2em;
 
-  .investigator__image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-right: 1em;
-
-    img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
+  img {
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
   }
 
-  .investigator__details {
-    max-width: calc(100% - 160px); // Adjust based on the actual width of the image and margin
+}
 
-    h2 {
-      margin-bottom: 0.5em;
-      font-size: 1.5em;
-    }
+/* Assuming the "Team" title is within a header tag, e.g., <h1> or <h2> */
+.team-header {
+  position: relative;
+  text-align: left;
+  margin-bottom: 60px; /* Adjust as needed for spacing */
 
-    p {
-      margin-bottom: 0.5em;
-    }
+  /* The title text styling */
+  h1 {
+    font-size: 2em; /* Adjust size as needed */
+    color: #36454f; /* This is a dark grey color, change as desired */
+    margin: 0 0 20px 0; /* Spacing around the title */
+  }
+
+  /* The underline style */
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 4px; /* Thickness of the line */
+    width:70%; /* Length of the line, adjust as needed */
+    background: #d3d3d3; /* This is a light grey color, change as desired */
   }
 }
+
+/* Add this to the top-level SCSS file */
+#team-page .team-header {
+  /* Include the above styles */
+}
+
 
 .team-member {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
+  padding: 1em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 4px solid #eee;
 
-  .member__avatar {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-bottom: 1em;
+  .member_position {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+    color: #36454f;
+  }
 
-    img {
-      width: 100%;
-      height: auto;
-      display: block;
+    .member__avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-bottom: 0em; 
+      object-fit: cover;
+      border: 3px solid #eee;
+      box-shadow: 0 4px 8px rgba(0, 0, 128, 0.2);
+      transition: transform 0.3s;
+
+      &:hover {
+        transform: scale(1.05); // Slight increase on hover
+      }
+    }
+  }
+
+  .member__info {
+    display: block;
+
+    .member__name {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 0.25em;
+      color: #36454f;
     }
   }
 
   .member__content {
-    // Set a max-width to align the content with the name of the position
-    // Adjust this value as needed to fit your design
-    max-width: 80%;
-    
-    h3 {
-      margin-bottom: 0.5em;
-      font-size: 1.2em;
-      color: $text-color; // Example variable usage
-    }
-
-    .member__position {
-      font-style: italic;
-      color: $secondary-text-color; // Example variable usage
-      margin-bottom: 0.5em;
-    }
+    width: 100%;
+    font-size: 0.9em;
 
     .member__abstract {
       text-align: justify;
-      margin-top: 0;
-      // Remove padding-top if you want the text to align at the top
-      padding: 0 1em; // Add horizontal padding if needed
+      line-height: 1.6;
     }
   }
 
-  // Add responsive design adjustments
-  @media (max-width: 768px) {
+  @media (min-width: 768px){
+    flex-direction: row;
+    align-items: center;
+
     .member__avatar {
-      width: 120px;
-      height: 120px;
+      margin-right: 2em;
+      margin-bottom: 0em;
+    }
+
+    .member_info {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
     }
 
     .member__content {
-      // Adjust the max-width for responsive design
-      max-width: 90%;
+      padding-left: 2em;
+    }
+
+    .banner {
+      background-size: cover;
+      background-repeat: no-repeat;
+      max-height: 250px;
+      margin-bottom: 1em;
+
+      img {
+        max-height: 250px;
+        width: 100%;
+        object-fit: cover;
+      }
     }
   }
-}

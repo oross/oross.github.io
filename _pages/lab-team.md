@@ -17,7 +17,7 @@ permalink: /team/
 <div class="team-member">
     <h1 class="member__position">{{ member.position }}</h1>
     <div class="member__avatar">
-        <a href="{{ site.baseurl }}/team/{{ member.profile_slug }}" >
+        <a href="{{ site.baseurl }}/team/{{ member.profile_slug | strip}}" >
             {% if member.avatar contains "://" %}
                 <img src="{{ member.avatar }}" alt="{{ member.name }}">
             {% elsif member.avatar %}

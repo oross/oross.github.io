@@ -1,19 +1,8 @@
 ---
-layout: page
-title: "Dr. Miguel Montiel's Profile"
-permalink: /team/mmontielpz/
+layout: member-page
+name: "PhD Miguel Angel Lopez Montiel"
+position: "Postdoctoral Researcher"
+avatar: "mmontielpz.jpg"
+bio: "Here is Miguel's biography. His expertise encompasses a broad range of areas within Artificial Intelligence..."
+email: "milopez@citedi.mx"
 ---
-
-# Dr. Miguel Montiel
-
-![Dr. Miguel Montiel's Image](/images/mmontielpz.jpg)
-
-## About Me
-Here's a detailed abstract of my curriculum vitae, my research interests, and my contributions to the field.
-
-## My Work
-Describe the projects you've worked on, papers you've published, etc.
-
-## Contact
-- Email: [mmontielpz@citedi.mx](mailto:mmontielpz@citedi.mx)
-- Website: [mmontielpz.com](http://mmontielpz.com)

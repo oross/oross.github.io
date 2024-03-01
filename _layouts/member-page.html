@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<header class="banner">
+  <img src="{{ '/images/quantum-computer-banner.jpg' | prepend: site.baseurl }}" alt="Quantum Machine Learning">
+</header>
+
+<article class="member-profile">
+   <div class="member-introduction">
+    <img class="member-photo" src="{{ page.avatar | prepend: '/images/' | prepend: site.baseurl }}" alt="{{ page.name }}">
+    <div class="member-info">
+      <h1 class="member-name">{{ page.name }}</h1>
+      <p class="member-title">{{ page.position }}</p>
+    </div>
+  </div>
+
+  <div class="member-content">
+    <section class="member-bio">
+      <h2><i class="fas fa-user"></i> Biography</h2>
+      <p>{{ page.bio }}</p>
+    </section>
+
+    <aside class="member-details">
+      <h2><i class="fas fa-award"></i> Honors and Awards</h2>
+      <!-- Details go here -->
+    </aside>
+
+    <section class="member-projects">
+      <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+      <!-- Project details go here -->
+    </section>
+  </div>
+</article>
+
+<footer class="member-footer">
+  <!-- Member-specific footer content -->
+</footer>
